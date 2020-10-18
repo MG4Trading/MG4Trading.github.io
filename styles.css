@@ -10,7 +10,6 @@ body {
 }
 html {
 	zoom: 65%;
-	-moz-transform: scale(0.65);
 }
 #contacts-body {
 	overflow: hidden;
