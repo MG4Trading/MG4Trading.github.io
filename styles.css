@@ -8,13 +8,12 @@ body {
 	background-size: cover;
 	overflow-x: auto;
 }
+
 html {
 	zoom: 65%;
 	min-width: 1920px;
 }
-#contacts-body {
-	overflow-y: hidden;
-}
+
 .row {
 	margin-left: 0px;
 	margin-right: 0px;
@@ -90,7 +89,7 @@ html {
 	margin-right: 4.167vw;
 	padding-top: 7.4vh;
 	text-align: center;
-	min-height: 100%;
+	min-height:1080px;
 }
 .about-titles {
 	color: #cecccc;
@@ -182,7 +181,6 @@ html {
 }
 
 .index-footer {
-	position: absolute;
 	left: 0;
 	bottom: 0vh;
 	width: 100%;
