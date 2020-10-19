@@ -6,13 +6,14 @@ body {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	
+	overflow-x: auto;
 }
 html {
 	zoom: 65%;
+	min-width: 1920px;
 }
 #contacts-body {
-	overflow: hidden;
+	overflow-y: hidden;
 }
 .row {
 	margin-left: 0px;
@@ -223,9 +224,10 @@ html {
 }
 .contacts-footer {
 	background-color: #313334;
-	height: 90px;
+	min-height: 90px;
 	margin-bottom: -90px;
 	text-align: center;
+	min-width: 1920px;
 }
 
 .contacts-footer-text {
