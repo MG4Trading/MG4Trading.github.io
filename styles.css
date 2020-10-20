@@ -181,6 +181,7 @@ html {
 }
 
 .index-footer {
+	position: absolute;
 	left: 0;
 	bottom: 0vh;
 	width: 100%;
