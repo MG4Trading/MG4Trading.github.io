@@ -99,6 +99,7 @@ html {
 
 .about-section {
 	text-align: center;
+	margin-top: 4.074vh;
 }
 
 .about-text {
@@ -109,6 +110,7 @@ html {
 	border-radius: 2.34vw;
 	margin-top: 1.0185vh;
 	margin-left: 7.1875vw;
+	margin-right: 7.45vw;
 	padding-top: 5.09vh;
 	padding-left: 2.34375vw;
 	padding-right: 2.76vw;
@@ -130,7 +132,7 @@ html {
 }
 #contacts-header {
 	font-family: sans-serif;
-	font-size: 48px;
+	font-size: 53px;
 	color: #ffffff;
 	text-align: center;
 }
@@ -143,26 +145,32 @@ html {
 #contacts-text {
 	text-align: center;
 	font-family: sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	color: #ffffff;
 	margin-top: 1.48vh;
 }
 .contacts {
-	margin-left: 7.1875vw;
-	margin-right: 9.323vw;
+	margin-left: 10vw;
+	margin-right: 17.323vw;
 	margin-top: 10.65vh;
 }
 .contact-info {
 	background-color: #52504e;
 	border-radius: 155px;
-	width: 248px;
-	height: 326px;
+	height: 470px;
 	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.16);
 	text-align: center;
-	margin-left: 2.135vw;
+	margin-left: 7.323vw;
 	color: #cecccc;
 	font-family: sans-serif;
-	font-size: 19px;
+	font-size: 30px;
+}
+.contacts-image {
+	-moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 .contacts-links {
 	color: #cecccc;
