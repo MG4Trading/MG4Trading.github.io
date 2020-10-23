@@ -11,7 +11,10 @@ body {
 	text-size-adjust: none;
 }
 html {
-	zoom:250%
+	zoom:250%;
+	font-size: 16px;
+	-webkit-text-size-adjust: 16px; 
+	-ms-text-size-adjust: 16px;
 }
 .normal-device {
 	display: none;
@@ -51,8 +54,6 @@ html {
 }
 .menu-item a {
 	font-size: 13px;
-	-webkit-text-size-adjust: 13px;
-	-ms-text-size-adjust: 13px;
 	font-family: sans-serif;
 	color: #ffffff;
 }
@@ -62,8 +63,6 @@ html {
 #small-device-title {
 	color: #ffffff;
 	font-size: 22px;
-	-webkit-text-size-adjust: 22px;
-	-ms-text-size-adjust: 22px;
 	font-family: sans-serif;
 	text-align: right;
 	margin-right: 34px;
@@ -72,8 +71,6 @@ html {
 #small-device-slogan {
 	color: #ffffff;
 	font-size: 16px;
-	-webkit-text-size-adjust: 16px;
-	-ms-text-size-adjust: 16px;
 	font-family: sans-serif;
 	text-align: right;
 	margin-right: 34px;
@@ -87,8 +84,6 @@ html {
 	border-radius: 52px;
 	font-family: sans-serif;
 	font-size:17px;
-	-webkit-text-size-adjust: 17px;
-	-ms-text-size-adjust: 17px;
 	color: #ffffff;
 	float: right;
 	padding-top:4px;
@@ -112,8 +107,6 @@ html {
 	color: #cecccc;
 	font-family: sans-serif;
 	font-size: 21px;
-	-webkit-text-size-adjust: 21px;
-	-ms-text-size-adjust: 21px;
 }
 
 .about-section {
@@ -123,8 +116,6 @@ html {
 
 .about-text {
 	font-size: 15px;
-	-webkit-text-size-adjust: 15px;
-	-ms-text-size-adjust: 15px;
 	font-family: sans-serif;
 	color: #cecccc;
 	background-color: #52504e;
@@ -145,8 +136,6 @@ html {
 #role-link {
 	color: #cecccc;
 	font-size: 17px;
-	-webkit-text-size-adjust: 17px;
-	-ms-text-size-adjust: 17px;
 }
 .role-link:hover {
 	color: #cecccc;
@@ -155,8 +144,6 @@ html {
 #contacts-header {
 	font-family: sans-serif;
 	font-size: 21px;
-	-webkit-text-size-adjust: 21px;
-	-ms-text-size-adjust: 21px;
 	color: #ffffff;
 	text-align: center;
 }
@@ -170,8 +157,6 @@ html {
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 9px;
-	-webkit-text-size-adjust: 9px;
-	-ms-text-size-adjust: 9px;
 	color: #ffffff;
 	margin-top: 9px;
 }
@@ -190,8 +175,6 @@ html {
 	color: #cecccc;
 	font-family: sans-serif;
 	font-size: 8px;
-	-webkit-text-size-adjust: 8px;
-	-ms-text-size-adjust: 8px;
 }
 .contact-info-2 {
 	margin-left:74px;
@@ -205,8 +188,6 @@ html {
 	color: #cecccc;
 	font-family: sans-serif;
 	font-size: 10px;
-	-webkit-text-size-adjust: 10px;
-	-ms-text-size-adjust: 10px;
 }
 .contacts-image {
 	-moz-transform: scale(1.2);
@@ -226,8 +207,6 @@ html {
 .service-item {
 	font-family: sans-serif;
 	font-size: 24px;
-	-webkit-text-size-adjust: 24px;
-	-ms-text-size-adjust: 24px;
 	color: #ffffff;
 	text-align: center;
 	margin-top: 8px;
@@ -257,8 +236,6 @@ html {
 .lang-text {
 	color: #ffffff;
 	font-size: 12px;
-	-webkit-text-size-adjust: 12px;
-	-ms-text-size-adjust: 12px;
 	font-family: sans-serif;
 	display: inline-block;
 	margin-left: -25px;
@@ -285,8 +262,6 @@ html {
 .menu-lang-text {
 	color: #ffffff;
 	font-size: 9px;
-	-webkit-text-size-adjust: 9px;
-	-ms-text-size-adjust: 9px;
 	font-family: sans-serif;
 	display: inline-block;
 	margin-left: -16px;
@@ -312,8 +287,6 @@ html {
 	color: #cecccc;
 	font-family: sans-serif;
 	font-size: 13px;
-	-webkit-text-size-adjust: 13px;
-	-ms-text-size-adjust: 13px;
 	margin-top: 17px;
 	margin-left:20px;
 }
@@ -321,8 +294,6 @@ html {
 	color: #cecccc;
 	font-family: sans-serif;
 	font-size: 10px;
-	-webkit-text-size-adjust: 10px;
-	-ms-text-size-adjust: 10px;
 	margin-left: 5.7px;
 	display: inline-block;
 }
