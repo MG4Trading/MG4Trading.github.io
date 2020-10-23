@@ -12,9 +12,6 @@ body {
 }
 html {
 	zoom:250%;
-	font-size: 16px;
-	-webkit-text-size-adjust: 16px; 
-	-ms-text-size-adjust: 16px;
 }
 .normal-device {
 	display: none;
@@ -53,7 +50,7 @@ html {
 	margin-top:7px;
 }
 .menu-item a {
-	font-size: 13px;
+	font-size: 0.8125em;
 	font-family: sans-serif;
 	color: #ffffff;
 }
@@ -62,7 +59,7 @@ html {
 }
 #small-device-title {
 	color: #ffffff;
-	font-size: 22px;
+	font-size: 1.375em;
 	font-family: sans-serif;
 	text-align: right;
 	margin-right: 34px;
@@ -70,7 +67,7 @@ html {
 }
 #small-device-slogan {
 	color: #ffffff;
-	font-size: 16px;
+	font-size: 1em;
 	font-family: sans-serif;
 	text-align: right;
 	margin-right: 34px;
@@ -83,7 +80,7 @@ html {
 	background-color: #ff0000;
 	border-radius: 52px;
 	font-family: sans-serif;
-	font-size:17px;
+	font-size:1.0625em;
 	color: #ffffff;
 	float: right;
 	padding-top:4px;
@@ -106,7 +103,7 @@ html {
 .about-titles {
 	color: #cecccc;
 	font-family: sans-serif;
-	font-size: 21px;
+	font-size: 1.3125empx;
 }
 
 .about-section {
@@ -115,7 +112,7 @@ html {
 }
 
 .about-text {
-	font-size: 15px;
+	font-size: 0.9375em;
 	font-family: sans-serif;
 	color: #cecccc;
 	background-color: #52504e;
@@ -135,7 +132,7 @@ html {
 }
 #role-link {
 	color: #cecccc;
-	font-size: 17px;
+	font-size: 1.0625em;
 }
 .role-link:hover {
 	color: #cecccc;
@@ -143,7 +140,7 @@ html {
 }
 #contacts-header {
 	font-family: sans-serif;
-	font-size: 21px;
+	font-size:1.3125em;
 	color: #ffffff;
 	text-align: center;
 }
@@ -156,7 +153,7 @@ html {
 #contacts-text {
 	text-align: center;
 	font-family: sans-serif;
-	font-size: 9px;
+	font-size: 0.5625em;
 	color: #ffffff;
 	margin-top: 9px;
 }
@@ -174,7 +171,7 @@ html {
 	margin-left: 16px;
 	color: #cecccc;
 	font-family: sans-serif;
-	font-size: 8px;
+	font-size: 0.5em;
 }
 .contact-info-2 {
 	margin-left:74px;
@@ -187,7 +184,7 @@ html {
 	margin-top: 25px;
 	color: #cecccc;
 	font-family: sans-serif;
-	font-size: 10px;
+	font-size: 0.625em;
 }
 .contacts-image {
 	-moz-transform: scale(1.2);
@@ -206,7 +203,7 @@ html {
 
 .service-item {
 	font-family: sans-serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	color: #ffffff;
 	text-align: center;
 	margin-top: 8px;
@@ -235,7 +232,7 @@ html {
 }
 .lang-text {
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 0.75em;
 	font-family: sans-serif;
 	display: inline-block;
 	margin-left: -25px;
@@ -261,7 +258,7 @@ html {
 }
 .menu-lang-text {
 	color: #ffffff;
-	font-size: 9px;
+	font-size: 0.5625em;
 	font-family: sans-serif;
 	display: inline-block;
 	margin-left: -16px;
@@ -286,14 +283,14 @@ html {
 #contact-us-through {
 	color: #cecccc;
 	font-family: sans-serif;
-	font-size: 13px;
+	font-size: 0.8125em;
 	margin-top: 17px;
 	margin-left:20px;
 }
 .contacts-footer-text {
 	color: #cecccc;
 	font-family: sans-serif;
-	font-size: 10px;
+	font-size: 0.625em;
 	margin-left: 5.7px;
 	display: inline-block;
 }
