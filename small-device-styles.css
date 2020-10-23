@@ -98,7 +98,106 @@ html {
 	text-align: center;
 	min-height: 100%;
 }
+.about-titles {
+	color: #cecccc;
+	font-family: sans-serif;
+	font-size: 21px;
+}
 
+.about-section {
+	text-align: center;
+	margin-top: 8px;
+}
+
+.about-text {
+	font-size: 15px;
+	font-family: sans-serif;
+	color: #cecccc;
+	background-color: #52504e;
+	border-radius: 20px;
+	margin-top: 8px;
+	margin-left: 34px;
+	margin-right: 34px;
+	padding-top: 19px;
+	padding-left: 28px;
+	padding-right: 13px;
+	padding-bottom: 23px;
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.16);
+	text-align: center;
+}
+.role-text {
+	margin-bottom: 3px;
+}
+#role-link {
+	color: #cecccc;
+	font-size: 17px;
+}
+.role-link:hover {
+	color: #cecccc;
+	text-decoration: underline;
+}
+#contacts-header {
+	font-family: sans-serif;
+	font-size: 21px;
+	color: #ffffff;
+	text-align: center;
+}
+#contacts-hr {
+	background-color: #ff0000;
+	width: 49px;
+	text-align: center;
+	margin-top: 10.5px;
+}
+#contacts-text {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 9px;
+	color: #ffffff;
+	margin-top: 9px;
+}
+.contacts {
+	margin-left: 29px;
+	margin-right: 45px;
+	margin-top: 34px;
+}
+.contact-info {
+	background-color: #52504e;
+	border-radius: 155px;
+	height: 156px;
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.16);
+	text-align: center;
+	margin-left: 16px;
+	color: #cecccc;
+	font-family: sans-serif;
+	font-size: 8px;
+}
+.contact-info-2 {
+	margin-left:74px;
+	margin-right:73px;
+	background-color: #52504e;
+	height: 125px;
+	border-radius: 155px;
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.16);
+	text-align: left;
+	margin-top: 25px;
+	color: #cecccc;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+.contacts-image {
+	-moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.contacts-links {
+	color: #cecccc;
+}
+.contacts-links:hover {
+	color: #cecccc;
+	text-decoration: underline;
+}
 
 .service-item {
 	font-family: sans-serif;
@@ -123,6 +222,11 @@ html {
 .lang {
 	text-align: center;
 	color: white;
+}
+.contacts-lang {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .lang-text {
 	color: #ffffff;
