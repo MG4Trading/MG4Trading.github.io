@@ -7,8 +7,7 @@ body {
 	-moz-background-size: cover;
 	background-size: cover;
 	overflow-x: auto;
-	-webkit-text-size-adjust: none;
-	text-size-adjust: none;
+	-webkit-text-size-adjust: 250%;
 }
 html {
 	zoom:250%;
