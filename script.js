@@ -18,3 +18,8 @@ function closeNav() {
     document.getElementById("main-page").style.marginLeft = "0px";
     document.getElementById("main-lang").style.display = "block";
 }
+
+if ((navigator.userAgent.match(/iPhone/)) || (navigator.userAgent.match(/iPod/))) {
+    document.getElementById("body").style.webkitTextSizeAdjust = "250%";
+    document.getElementById("contacts-body").style.webkitTextSizeAdjust = "250%";
+ }

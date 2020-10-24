@@ -7,16 +7,11 @@ body {
 	-moz-background-size: cover;
 	background-size: cover;
 	overflow-x: auto;
-	-webkit-text-size-adjust: 100%;
 }
 html {
 	zoom:250%;
 }
-@media screen and (-webkit-min-device-pixel-ratio: 2) { 
-	body {
-		-webkit-text-size-adjust: 250%;
-	}
- }
+
 .normal-device {
 	display: none;
 }
