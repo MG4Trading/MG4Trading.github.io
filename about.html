@@ -1,13 +1,13 @@
 <html>
 
 <head>
-	<title> About Us </title>
+	<title class="language" key="about"> About Us </title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
 		integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<link media="only screen and (max-device-width: 480px)" href="small-device-styles.css" type="text/css"
 		rel="stylesheet">
 	<link media="screen and (min-device-width: 481px)" href="styles.css" type="text/css" rel="stylesheet">
-	
+
 </head>
 
 <body id="body">
@@ -19,30 +19,32 @@
 				</div>
 				<div class="col">
 					<div class="nav-menu">
-						<a href="http://www.mgfortrading.ca" class="menu-item">Home</a>
+						<button class="menu-item language" key="home" onclick="home()">Home</button>
 						<img src="images/nav_splitter.svg" class="nav-splitter">
-						<a href="about.html" class="menu-item">About</a>
+						<button class="menu-item language" key="about" onclick="about()">About</button>
 						<img src="images/nav_splitter.svg" class="nav-splitter">
-						<a href="services.html" class="menu-item">Services</a>
+						<button class="menu-item language" key="services" onclick="services()">Services</button>
 						<img src="images/nav_splitter.svg" class="nav-splitter">
-						<a href="contacts.html" class="menu-item">Contact Us</a>
+						<button class="menu-item language" key="contactus" onclick="contacts()">Contact Us</button>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="content">
 			<div class="about-section">
-				<strong class="about-titles"> Who we are? </strong>
+				<strong class="about-titles language" key="whoWeAre"> Who we are? </strong>
 				<div class="about-text">
-					<p> MG for Trading is a Canadian based company interested in multi-sector business.
+					<p class="language" key="whoeWeAreText"> MG for Trading is a Canadian based company interested in
+						multi-sector business.
 						Throughout 30 years of real experience across different industries, we build knowledge,
 						capabilities and most important relationship with key players across the globe. </p>
 				</div>
 			</div>
 			<div class="about-section">
-				<strong class="about-titles"> Our Mission </strong>
+				<strong class="about-titles language" key="mission"> Our Mission </strong>
 				<div class="about-text">
-					<p> We believe that cooperation between individuals, corporates and even countries will lead to
+					<p class="language" key="missionText"> We believe that cooperation between individuals, corporates
+						and even countries will lead to
 						welfare
 						and prosperity for people around the world therefore we focus on building bridges and
 						relationship
@@ -53,24 +55,26 @@
 				</div>
 			</div>
 			<div class="about-section">
-				<strong class="about-titles"> Our Role </strong>
+				<strong class="about-titles language" key="role"> Our Role </strong>
 				<div class="about-text" style=" margin-bottom: 5vh;">
-					<p> Enhance, optimize end-to-end supply chain and leverage distribution channels.
+					<p class="language" key="roleText"> Enhance, optimize end-to-end supply chain and leverage
+						distribution channels.
 						Whether through our direct operation or our consultancy service, we build capabilities at the
 						following key focus areas: </p>
-					<strong> <a href="services.html" id="role-link"> View our services </a> </strong>
+					<strong> <a href="services.html" id="role-link" class="language" key="viewOurServices"> View our
+							services </a> </strong>
 				</div>
 			</div>
 
 			<div class="lang">
-				<a href="#en">
+				<a href="#en" class="translate" id="en">
 					<img src="images/english.svg" class="lang-img">
-					<p class="lang-text"> English</p>
+					<p class="lang-text language" key="english"> English</p>
 				</a>
 				<img src="images/language_splitter.svg" class="lang-img">
-				<a href="#fr">
+				<a href="#fr" class="translate" id="fr">
 					<img src="images/french.svg" class="lang-img">
-					<p class="lang-text"> French</p>
+					<p class="lang-text language" key="french"> French</p>
 				</a>
 			</div>
 		</div>
@@ -91,7 +95,8 @@
 					</a>
 				</div>
 				<div class="col">
-					<a href="https://www.facebook.com/MG-for-Trading-100345355215289/?modal=admin_todo_tour" target="_blank">
+					<a href="https://www.facebook.com/MG-for-Trading-100345355215289/?modal=admin_todo_tour"
+						target="_blank">
 						<img src="images/fb_footer.svg" class="contacts-footer-img">
 						<img src="images/footer_splitter.svg" class="contacts-footer-splitter">
 						<p class="contacts-footer-text"> Facebook: MG for Trading </p>
@@ -112,45 +117,50 @@
 			</div>
 			<div class="content">
 				<div class="about-section">
-					<strong class="about-titles"> Who we are? </strong>
+					<strong class="about-titles language" key="whoWeAre"> Who we are? </strong>
 					<div class="about-text">
-						<p> MG for Trading is a Canadian based company interested in multi-sector business.
+						<p class="language" key="whoeWeAreText"> MG for Trading is a Canadian based company
+							interested in multi-sector business.
 							Throughout 30 years of real experience across different industries, we build knowledge,
 							capabilities and most important relationship with key players across the globe. </p>
 					</div>
 				</div>
 				<div class="about-section">
-					<strong class="about-titles"> Our Mission </strong>
+					<strong class="about-titles language" key="mission"> Our Mission </strong>
 					<div class="about-text">
-						<p> We believe that cooperation between individuals, corporates and even countries will lead to
+						<p class="language" key="missionText"> We believe that cooperation between individuals,
+							corporates and even countries will lead to
 							welfare
 							and prosperity for people around the world therefore we focus on building bridges and
 							relationship
 							among different stakeholders.
-							We rely on our valuable human assets team and our passion is to introduce a unique customer
+							We rely on our valuable human assets team and our passion is to introduce a unique
+							customer
 							experience and long term relationship with our customers.
 						</p>
 					</div>
 				</div>
 				<div class="about-section">
-					<strong class="about-titles"> Our Role </strong>
-					<div class="about-text">
-						<p> Enhance, optimize end-to-end supply chain and leverage distribution channels.
-							Whether through our direct operation or our consultancy service, we build capabilities at
-							the
+					<strong class="about-titles language" key="role"> Our Role </strong>
+					<div class="about-text" style=" margin-bottom: 5vh;">
+						<p class="language" key="roleText"> Enhance, optimize end-to-end supply chain and leverage
+							distribution channels.
+							Whether through our direct operation or our consultancy service, we build capabilities
+							at the
 							following key focus areas: </p>
-						<strong> <a href="services.html" id="role-link"> View our services </a> </strong>
+						<strong> <a href="services.html" id="role-link" class="language" key="viewOurServices"> View
+								our services </a> </strong>
 					</div>
 				</div>
 				<div id="main-lang" class="lang" style="margin-top:30px;">
-					<a href="#en">
+					<a href="#en" class="translate" id="en">
 						<img src="images/english.svg" class="lang-img">
-						<p class="lang-text"> English</p>
+						<p class="lang-text language" key="english"> English</p>
 					</a>
 					<img src="images/language_splitter.svg" class="lang-img" style="height:15.7px; width:2px;">
-					<a href="#fr">
+					<a href="#fr" class="translate" id="fr">
 						<img src="images/french.svg" class="lang-img">
-						<p class="lang-text"> French</p>
+						<p class="lang-text language" key="french"> French</p>
 					</a>
 				</div>
 			</div>
@@ -158,7 +168,7 @@
 			<div class="contacts-footer">
 				<div class="row">
 					<div class="col">
-						<p id="contact-us-through"> Contact us through: </p>
+						<p id="contact-us-through" class="language" key="contactUsThrough"> Contact us through: </p>
 					</div>
 					<div class="col">
 						<div style="margin-top:12px;">
@@ -193,32 +203,33 @@
 			<img src="images/logo.svg" style="width:110; height:34; margin-top:14px; margin-left:33px;">
 			<img src="images/side_nav_splitter.svg" style=" margin-top:7px; margin-bottom:10px; margin-left:17px;">
 			<div class="menu-item">
-				<a href="http://www.mgfortrading.ca">Home</a>
+				<button class="language" key="home" onclick="home()">Home</button>
 			</div>
 			<div class="menu-item">
-				<a href="about.html">About</a>
+				<button class="language" key="about" onclick="about()">About</button>
 			</div>
 			<div class="menu-item">
-				<a href="services.html">Services</a>
+				<button class="language" key="services" onclick="services()">Services</button>
 			</div>
 			<div class="menu-item">
-				<a href="contacts.html">Contact Us</a>
+				<button class="language" key="contactus" onclick="contacts()">Contact Us</button>
 			</div>
 			<div id="menu-lang">
-				<a href="#en">
+				<a href="#en" class="translate" id="en">
 					<img src="images/english.svg" class="menu-lang-img">
-					<p class="menu-lang-text"> English</p>
+					<p class="menu-lang-text language" key="french"> English</p>
 				</a>
 				<img src="images/language_splitter.svg" class="menu-lang-img" style="height:10.7px; width:2px;">
-				<a href="#fr">
+				<a href="#fr" class="translate" id="fr">
 					<img src="images/french.svg" class="menu-lang-img">
-					<p class="menu-lang-text"> French</p>
+					<p class="menu-lang-text language" key="french"> French</p>
 				</a>
 			</div>
 		</div>
 	</div>
-	
-	<script type="text/javascript" src="script.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js" charset="utf-8"></script>
 </body>
 
 </html>

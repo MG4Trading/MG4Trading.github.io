@@ -1,13 +1,13 @@
 <html>
 
 <head>
-	<title> Contact Us </title>
+	<title class="language" key="contactus"> Contact Us </title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
 		integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<link media="only screen and (max-device-width: 480px)" href="small-device-styles.css" type="text/css"
 		rel="stylesheet">
 	<link media="screen and (min-device-width: 481px)" href="styles.css" type="text/css" rel="stylesheet">
-	
+
 </head>
 
 <body id="contacts-body">
@@ -19,23 +19,25 @@
 				</div>
 				<div class="col">
 					<div class="nav-menu">
-						<a href="http://www.mgfortrading.ca" class="menu-item">Home</a>
+						<button class="menu-item language" key="home" onclick="home()">Home</button>
 						<img src="images/nav_splitter.svg" class="nav-splitter">
-						<a href="about.html" class="menu-item">About</a>
+						<button class="menu-item language" key="about" onclick="about()">About</button>
 						<img src="images/nav_splitter.svg" class="nav-splitter">
-						<a href="services.html" class="menu-item">Services</a>
+						<button class="menu-item language" key="services" onclick="services()">Services</button>
 						<img src="images/nav_splitter.svg" class="nav-splitter">
-						<a href="contacts.html" class="menu-item">Contact Us</a>
+						<button class="menu-item language" key="contactus" onclick="contacts()">Contact Us</button>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="content">
-			<strong id="contacts-header"> Contact Us </strong>
+			<strong id="contacts-header" class="language" key="contactus"> Contact Us </strong>
 			<hr id="contacts-hr">
 			<p id="contacts-text">We will always be available to answer all your questions<span style="display: block;">
-					and concerns, please don't hesitate to contact us.</p>
-
+					and concerns, please don't hesitate to contact us.</span></p>
+			<p id="contacts-text-french" style="display: none;">Nous serons toujours disponibles pour répondre à toutes
+				vos questions<span style="display: block;">
+					et préoccupations, n'hésitez pas à nous contacter.</span></p>
 			<div class="row contacts">
 				<div class="col contact-info">
 					<a href="mailto: info@mgfortrading.ca" class="contacts-links">
@@ -51,7 +53,8 @@
 					</a>
 				</div>
 				<div class="col contact-info">
-					<a href="https://www.facebook.com/MG-for-Trading-100345355215289/?modal=admin_todo_tour" class="contacts-links" target="_blank">
+					<a href="https://www.facebook.com/MG-for-Trading-100345355215289/?modal=admin_todo_tour"
+						class="contacts-links" target="_blank">
 						<img src="images/fb.svg" style="margin-top: 64px;" class="contacts-image">
 						<p style="margin-top: 51px;"> Facebook <span style="display: block;"> MG for Trading </p>
 					</a>
@@ -70,14 +73,14 @@
 
 			</div>
 			<div class="lang contacts-lang">
-				<a href="#en">
+				<a href="#en" class="translate" id="en">
 					<img src="images/english.svg" class="lang-img">
-					<p class="lang-text"> English</p>
+					<p class="lang-text language" key="english"> English</p>
 				</a>
 				<img src="images/language_splitter.svg" class="lang-img">
-				<a href="#fr">
+				<a href="#fr" class="translate" id="fr">
 					<img src="images/french.svg" class="lang-img">
-					<p class="lang-text"> French</p>
+					<p class="lang-text language" key="french"> French</p>
 				</a>
 			</div>
 		</div>
@@ -95,47 +98,53 @@
 			<div class="content">
 				<strong id="contacts-header"> Contact Us </strong>
 				<hr id="contacts-hr">
-				<p id="contacts-text">We will always be available to answer all your questions<span
+				<p id="small-device-contacts-text">We will always be available to answer all your questions<span
 						style="display: block;">
-						and concerns, please don't hesitate to contact us.</p>
-
+						and concerns, please don't hesitate to contact us.</span></p>
+				<p id="small-device-contacts-text-french" style="display: none;">Nous serons toujours disponibles pour répondre à
+					toutes vos questions<span style="display: block;">
+						et préoccupations, n'hésitez pas à nous contacter.</span></p>
 				<div class="row contacts">
 					<div class="col contact-info">
 						<a href="mailto: info@mgfortrading.ca" class="contacts-links">
-							<img src="images/mail.svg" style="width:80px; height:54px; margin-top: 28px;"  class="contacts-image">
+							<img src="images/mail.svg" style="width:80px; height:54px; margin-top: 28px;"
+								class="contacts-image">
 							<p style="margin-top: 11px;"> Email<span style="display: block;"> info@mgfortrading.ca </p>
 						</a>
 					</div>
 					<div class="col contact-info">
 						<a href="https://www.linkedin.com/company/mg-international-consulting" class="contacts-links"
 							target="_blank">
-							<img src="images/linkedin.svg" style="width:63px; height:43px; margin-top: 30px;"  class="contacts-image">
+							<img src="images/linkedin.svg" style="width:63px; height:43px; margin-top: 30px;"
+								class="contacts-image">
 							<p style="margin-top:16px;"> LinkedIn <span style="display: block;"> MG for Trading </p>
 						</a>
 					</div>
 				</div>
 				<div class="contact-info-2">
-					<a href="https://www.facebook.com/MG-for-Trading-100345355215289/?modal=admin_todo_tour" class="contacts-links" target="_blank">
+					<a href="https://www.facebook.com/MG-for-Trading-100345355215289/?modal=admin_todo_tour"
+						class="contacts-links" target="_blank">
 						<div class="row">
 							<div class="col-4" style="padding-top:30px; padding-left:31px;">
 								<img src="images/fb.svg" style="width:37px; height:63px;" class="contacts-image">
 							</div>
 							<div class="col-8" style="padding-top:53px;">
-								<p style="margin-left:17px; display:inline-block;"> &nbsp; &nbsp; &nbsp;Facebook <span style="display: block;"> MG for Trading </p>
+								<p style="margin-left:17px; display:inline-block;"> &nbsp; &nbsp; &nbsp;Facebook <span
+										style="display: block;"> MG for Trading </p>
 							</div>
-						
+
 						</div>
 					</a>
 				</div>
 				<div id="main-lang" class="contacts-lang lang">
-					<a href="#en">
+					<a href="#en" class="translate" id="en">
 						<img src="images/english.svg" class="lang-img">
-						<p class="lang-text"> English</p>
+						<p class="lang-text language" key="english"> English</p>
 					</a>
 					<img src="images/language_splitter.svg" class="lang-img" style="height:15.7px; width:2px;">
-					<a href="#fr">
+					<a href="#fr" class="translate" id="fr">
 						<img src="images/french.svg" class="lang-img">
-						<p class="lang-text"> French</p>
+						<p class="lang-text language" key="french"> French</p>
 					</a>
 				</div>
 			</div>
@@ -144,32 +153,32 @@
 			<img src="images/logo.svg" style="width:110; height:34; margin-top:14px; margin-left:33px;">
 			<img src="images/side_nav_splitter.svg" style=" margin-top:7px; margin-bottom:10px; margin-left:17px;">
 			<div class="menu-item">
-				<a href="http://www.mgfortrading.ca">Home</a>
+				<button class="language" key="home" onclick="home()">Home</button>
 			</div>
 			<div class="menu-item">
-				<a href="about.html">About</a>
+				<button class="language" key="about" onclick="about()">About</button>
 			</div>
 			<div class="menu-item">
-				<a href="services.html">Services</a>
+				<button class="language" key="services" onclick="services()">Services</button>
 			</div>
 			<div class="menu-item">
-				<a href="contacts.html">Contact Us</a>
+				<button class="language" key="contactus" onclick="contacts()">Contact Us</button>
 			</div>
 			<div id="menu-lang">
-				<a href="#en">
+				<a href="#en" class="translate" id="en">
 					<img src="images/english.svg" class="menu-lang-img">
-					<p class="menu-lang-text"> English</p>
+					<p class="menu-lang-text language" key="french"> English</p>
 				</a>
 				<img src="images/language_splitter.svg" class="menu-lang-img" style="height:10.7px; width:2px;">
-				<a href="#fr">
+				<a href="#fr" class="translate" id="fr">
 					<img src="images/french.svg" class="menu-lang-img">
-					<p class="menu-lang-text"> French</p>
+					<p class="menu-lang-text language" key="french"> French</p>
 				</a>
 			</div>
 		</div>
 	</div>
-	
-	<script type="text/javascript" src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js" charset="utf-8"></script>
 </body>
 
 </html>

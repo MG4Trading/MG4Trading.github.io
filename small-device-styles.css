@@ -48,10 +48,16 @@ html {
 	margin-left:19px;
 	margin-top:7px;
 }
-.menu-item a {
+.menu-item button {
 	font-size: 0.8125em;
 	font-family: sans-serif;
 	color: #ffffff;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }
 .menu-item a:hover {
 	text-decoration: underline;
@@ -149,7 +155,7 @@ html {
 	text-align: center;
 	margin-top: 10.5px;
 }
-#contacts-text {
+#small-device-contacts-text, #small-device-contacts-text-french {
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 0.5625em;
