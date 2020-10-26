@@ -22,8 +22,11 @@ function closeNav() {
 
 //font size in ios
 if ((navigator.userAgent.match(/iPhone/)) || (navigator.userAgent.match(/iPod/))) {
-    document.getElementById("body").style.webkitTextSizeAdjust = "250%";
-    document.getElementById("contacts-body").style.webkitTextSizeAdjust = "250%";
+    if (document.URL.includes("contacts.html")) {
+        document.getElementById("contacts-body").style.webkitTextSizeAdjust = "250%";
+    } else {
+        document.getElementById("body").style.webkitTextSizeAdjust = "250%";
+    }
 }
 
 //translation
