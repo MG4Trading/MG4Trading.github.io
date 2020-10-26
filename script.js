@@ -95,11 +95,11 @@ $(function () {
                 document.getElementById("small-device-contacts-text").style.display = "none";
                 document.getElementById("small-device-contacts-text-french").style.display = "block";
             }
-            else if (window.location.href == "mgfortrading.ca" && screen.width > 481) {
+            else if (screen.width > 481) {
                 document.getElementById("english-title").style.display = "none";
                 document.getElementById("french-title").style.display = "block";
             }
-            else if (window.location.href == "mgfortrading.ca" && screen.width <= 480) {
+            else if (screen.width <= 480) {
                 document.getElementById("small-device-english-title").style.display = "none";
                 document.getElementById("small-device-french-title").style.display = "block";
             }
@@ -111,11 +111,11 @@ $(function () {
                 document.getElementById("small-device-contacts-text-french").style.display = "none";
                 document.getElementById("small-device-contacts-text").style.display = "block";
             }
-            else if (window.location.href == "mgfortrading.ca" && screen.width > 481) {
+            else if (screen.width > 481) {
                 document.getElementById("small-device-french-title").style.display = "none";
                 document.getElementById("small-device-english-title").style.display = "block";
             }
-            else if (window.location.href == "mgfortrading.ca" && screen.width <= 480) {
+            else if (screen.width <= 480) {
                 document.getElementById("small-device-french-title").style.display = "none";
                 document.getElementById("small-device-english-title").style.display = "block";
             }
@@ -135,11 +135,11 @@ if (window.location.hash) {
             document.getElementById("small-device-contacts-text").style.display = "none";
             document.getElementById("small-device-contacts-text-french").style.display = "block";
         }
-        else if (window.location.href == "mgfortrading.ca" && screen.width > 481) {
+        else if (screen.width > 481) {
             document.getElementById("english-title").style.display = "none";
             document.getElementById("french-title").style.display = "block";
         }
-        else if (window.location.href == "mgfortrading.ca" && screen.width <= 480) {
+        else if (screen.width <= 480) {
             document.getElementById("small-device-english-title").style.display = "none";
             document.getElementById("small-device-french-title").style.display = "block";
         }
